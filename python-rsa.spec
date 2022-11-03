@@ -1,7 +1,7 @@
 %define module rsa
 
 Name:           python-%{module}
-Version:        4.7.2
+Version:        4.9
 Release:        1
 Summary:        Pure-Python RSA implementation
 License:        ASLv2
