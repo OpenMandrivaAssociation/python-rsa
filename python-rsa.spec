@@ -2,7 +2,7 @@
 
 Name:           python-%{module}
 Version:        4.9
-Release:        2
+Release:        3
 Summary:        Pure-Python RSA implementation
 License:        ASLv2
 Group:          Development/Python
