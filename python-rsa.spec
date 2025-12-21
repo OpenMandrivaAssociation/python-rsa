@@ -12,7 +12,7 @@ BuildSystem:	python
 BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python%{pyver}dist(pip)
-BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(poetry-core)
 BuildRequires:  python%{pyver}dist(wheel)
 
 %description
