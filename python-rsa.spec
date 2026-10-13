@@ -2,7 +2,7 @@
 
 Name:           python-%{module}
 Version:        4.9.1
-Release:        1
+Release:        2
 Summary:        Pure-Python RSA implementation
 License:        Apache-2.0
 Group:          Development/Python
@@ -10,7 +10,7 @@ URL:            https://pypi.org/project/rsa/
 Source0:        https://pypi.python.org/packages/source/r/%{module}/%{module}-%{version}.tar.gz
 BuildSystem:	python
 BuildArch:      noarch
-BuildRequires:  pkgconfig(python)
+BuildRequires:  pkgconfig(python3)
 BuildRequires:  python%{pyver}dist(pip)
 BuildRequires:  python%{pyver}dist(poetry-core)
 BuildRequires:  python%{pyver}dist(wheel)
